@@ -1,0 +1,297 @@
+@media (max-width: 1200px) {
+  .header__info {
+    display: block;
+  }
+
+  .header__menu {
+    margin-bottom: 70px;
+  }
+
+  .header__text {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .header__video {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1180px) {
+  .feedback__content {
+    display: block;
+  }
+
+  .feedback__text {
+    text-align: center;
+    padding-top: 50px;
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .feedback__description {
+    margin-bottom: 37px;
+  }
+
+  .feedback__slider {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .slick-dots {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .slick-dots .slick-active button:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+
+  .slick-dots li button{
+    position: relative;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    color: transparent;
+    width: 5px;
+    height: 15px;
+
+  }
+  .slick-dots li + li button  {
+    margin-left: 8px;
+  }
+
+  .feedback__slider-container {
+    display: block;
+  }
+}
+
+@media (max-width: 1130px) {
+  .about {
+    padding: 70px 0;
+  }
+
+  .about__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .about__header {
+    max-width: 800px;
+  }
+
+  .about__description {
+    margin-bottom: 35px;
+  }
+
+  .about__card {
+    max-width: 50%;
+    margin-bottom: 40px;
+  }
+
+  .about__card-text {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .statistic__item  {
+    flex: 50%;
+    max-width: 100%;
+  }
+  .feedback__text {
+    max-width: 85%;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 890px) {
+  .header__btn {
+    text-align: center;
+    padding: 9px;
+    margin: 20px auto 0 auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__card {
+    max-width: 100%;
+  }
+  .about-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 789px) {
+  .statistic {
+    margin-bottom: 60px;
+  }
+  .services__item-content-box {
+    padding: 10px;
+  }
+  .services__item-content-box img {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    right: 0;
+    background-color: #061e37;
+  }
+
+  .header__link-item {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+  .header__links li + li{
+    padding-left: 0;
+  }
+
+  .header__link-item a:hover {
+    color: #fff;
+  }
+
+  .header__links {
+    padding: 0;
+  }
+
+  .boorger {
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
+  .header__btn {
+    width: 100%;
+  }
+
+  .header__text {
+    max-width: 100%;
+  }
+
+  .header__menu {
+    margin-bottom: 50px;
+  }
+
+  .header__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .feedback__title {
+    font-size: 40px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    min-height: 250px;
+  }
+
+  .footer__up {
+    display: block;
+  }
+
+  .footer__links {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 730px) {
+  .header__nav {
+    display: block !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .popup {
+    width: auto;
+  }
+}
+
+@media (max-width: 610px) {
+  .team {
+    margin-bottom: 90px;
+  }
+
+  .contact-form__box {
+    display: block;
+  }
+
+  .contact-form__wrap {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 555px) {
+  .footer__about-list-item {
+    display: block;
+  }
+
+  .footer__about-list li + li {
+    padding-left: 0px;
+  }
+
+  .footer__link-item {
+    display: block;
+  }
+
+  .footer__links li + li {
+    padding-left: 0;
+  }
+
+  .footer__up {
+    margin-bottom: 0;
+  }
+
+  .footer__socials {
+    align-self: flex-end;
+    margin-bottom: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding-bottom: 10px;
+  }
+  .header__video {
+    display: none;
+  }
+  .header__btn-left,
+  .header__btn-right
+  {
+    margin: 0 0 10px 0;
+    display: block;
+  }
+  .statistic__item  {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .contact-form__btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .contact-form__footer {
+    flex-wrap: wrap;
+  }
+}
