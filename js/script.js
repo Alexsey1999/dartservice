@@ -51,4 +51,9 @@ $(function() {
     $('.header__nav').slideToggle()
   })
 
+
+  $('.boorger').on('click', function() {
+    $('.header__nav').toggleClass('menu__active')
+  })
+
 })

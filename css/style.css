@@ -76,10 +76,6 @@ li {
   transition: all .2s;
 }
 
-.header__link-item a:hover {
-  color: #061e37;
-}
-
 .header__link-item a ,
 .footer__link-item a
 {
